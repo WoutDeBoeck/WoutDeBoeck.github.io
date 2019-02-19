@@ -1,0 +1,136 @@
+body
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    
+    font: 120% Calibri, sans-serif;
+}
+
+
+
+header
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1
+{
+    font: 200% Calibri Bold, sans-serif;
+}
+
+h2
+{
+    font-size: 160%;
+    text-indent: 16px;
+    min-height: 40px;
+    
+    margin-bottom: 10px;
+    background-color: lightsteelblue;
+    
+    border-bottom: solid 2px;
+}
+
+nav > ul
+{
+    margin-top: 12px;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    list-style-type: none;
+}
+
+nav > ul > li
+{
+    border-style: solid;
+    border-width: 2px;
+    
+    border-left-style: none;
+    
+    width: 20%;
+    text-align: center;
+}
+
+nav > ul > li:first-child
+{
+    border-left-style: solid;
+}
+
+nav > ul > li > a
+{
+    text-decoration: none;
+    font-size: 140%;
+    display: block;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    color: black;
+    background-color: lightsteelblue;
+}
+
+.active
+{
+    font-weight: bolder;
+}
+
+article
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 12px;
+    padding-bottom: 10px;
+    
+    min-height: 90px;
+    
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+table
+{
+    width: 92%;
+    
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: solid 1px black;
+}
+
+th
+{
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+tr
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+th, td
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    border: solid 1px black;
+    
+    text-align: center;
+    width: 33.33%;
+    max-width: 33.33%;
+}
+
+td
+{
+    padding: 2px;
+    text-align: left;
+}
+
